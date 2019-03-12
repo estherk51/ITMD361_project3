@@ -1,0 +1,39 @@
+html {
+    background-color: #0D4D4D;
+}
+header {
+    background-color: #003333;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+nav a {
+    display: inline;
+    color: #669999;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, li {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #669999;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 5px 0px;
+}
+
+h2 {
+    margin: 
+}
+
+li {
+    list-style: circle;
+}
