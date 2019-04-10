@@ -1,6 +1,13 @@
 html {
-    background-color: #0D4D4D;
+    background-color: #226666;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0% 10%;
+    margin-bottom: 0;
+    background-color: #0D4D4D;
+    position: absolute;
 }
 
 header { 
@@ -26,6 +33,7 @@ nav li {
     display: inline-block;
     margin-left: 80px;
 }
+
 nav a {
     color: #669999;
     text-decoration: none;
@@ -36,21 +44,27 @@ nav a:hover {
     background-color: #669999;
     color: #003333;
 }
+
 h1 {
     font-size: 50px;
     color: #669999;
+    text-align: center;
 }
 
 p {
     color: #669999;
     margin: 0.8em;
+    text-align: center;
 }
 
 div {
     float: left;
     margin: 5px 30px;
+    display: block;
+    width: 50%;
 }
 
-img {
-    
+#photo-2 img {
+    height: 400px;
+    width: 700px;
 }
