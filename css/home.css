@@ -81,25 +81,25 @@ p, li, ul{
     float: left;
 }
 
-@media screen and (min-width: 320px) and (max-width: 599px) {
+@media only screen and (min-width: 320px) and (max-width: 599px) {
     html {
         background-color: #0D4D4D;
-        position: relative;
+        position: absolute;
     }
+    
     body {
         margin: 0px;
         background-color: #0D4D4D;
-        position: relative;
+
+    }
+    header {
+        width: 100%;
     }
     
     nav li {
         display: block;
         width: 100%;
-    }
-    
-    nav a {
         float: none;
-        width: 100%;
     }
     
     h1 {
@@ -109,5 +109,25 @@ p, li, ul{
 }
 
 @media screen and (min-width: 600px) {
+    html {
+        background-color: #0D4D4D;
+    }
     
+    body {
+        margin: 0px;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+    }
 }
