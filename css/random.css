@@ -5,23 +5,22 @@ html {
 
 body {
     margin: 0% 10%;
-    margin-bottom: 0;
     background-color: #0D4D4D;
     position: absolute;
-    heigh
+    height: 100%;
 }
 
 header { 
     background-color: #003333;
-    padding: 20px;
+    padding: 10px;
     font-size: 2.3em;
     text-align: center;
+    position: relative;
 }
 
 nav {
     margin-top: 7px;
     text-align: center;
-    position: relative;
 }
 
 nav ul {
@@ -62,7 +61,10 @@ div {
     float: left;
     width: 100%; 
 }
+/*
 #photo-1 img {
+    height: 400px;
+    width: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -77,9 +79,26 @@ div {
 }
 
 #photo-3 img {
+    height: 400px;
+    width: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+*/
+section {
+    align-content: center;
+}
 
+button {
+    align-self: center;
+}
+
+.photos {
+    display: none;
+    height: 400px;
+    width:700px;
+    margin-right: auto;
+    margin-left: auto;
+}
 

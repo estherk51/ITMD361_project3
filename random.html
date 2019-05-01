@@ -8,7 +8,7 @@
         <script src="js/script.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
-    <body>
+    <body onload="carousel()">
         <header>
             <nav>
                 <ul>    
@@ -23,21 +23,14 @@
             <h1>Recent Adventures in Arizona</h1>
             <p>Here are some photos I took in Arizona!</p>
             <div class="slide-container">
-                <div class="slide">
-                    <div id="photo-1">
-                        <img class="photos" src="Images/IMG_20181215_145057.jpg" alt="Sedona, AZ">
-                        <p><em>Sedona</em></p>
-                    </div>
-                    <div id="photo-2">
-                        <img class="photos" src="Images/IMG_20181215_151046.jpg" alt="Devil's Bridge">
-                        <p><em>Devil's Bridge, Sedona</em></p>
-                    </div>
-                    <div id="photo-3">
-                        <img class="photos" src="Images/IMG_20181213_131256.jpg" alt="Papagos Park">
-                        <p><em>Papagos Park</em></p>
-                    </div>
-                </div>
+                <img class="photos" src="Images/IMG_20181215_145057.jpg" alt="Sedona, AZ">
+                <img class="photos" src="Images/IMG_20181215_151046.jpg" alt="Devil's Bridge">
+                <img class="photos" src="Images/img_20181215_140112.jpg" alt="Sedona2">
+                
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
             </div>
+            
         </section>       
     </body>
 </html>
