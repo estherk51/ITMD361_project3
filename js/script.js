@@ -1,14 +1,17 @@
-var myIndex = 0;
-carousel();
+function slideShow(){
+        var imgLen = document.getElementsByClassName('slide-container');
+        var images = imgLen.getElementsByTagName('img');
+        var counter = 1;
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("photos");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) { myIndex = 1 }
-    x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+        if(counter <= images.length) {
+            setInterval(slideShow() {
+                images[0].src = images[counter].src;
+                console.log(images[counter].src);
+                counter++;
+
+                if(counter === images.length){
+                    counter = 1;
+                }
+            },4000);
+        }
 }
