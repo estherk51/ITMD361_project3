@@ -8,6 +8,7 @@ body {
     margin-bottom: 0;
     background-color: #0D4D4D;
     height: 100%;
+    position: absolute;
 }
 
 header { 
