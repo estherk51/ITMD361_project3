@@ -105,12 +105,28 @@ p, li, ul{
     h1 {
         text-align: center;
     }
-
+    
+    p, li, ul {
+        font-size: 0.9em;
+    } 
+    
+    #photo-me {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        overflow: hidden;
+    }
+    
+    div {
+        display: block;
+    }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     html {
         background-color: #0D4D4D;
+        position: relative;
     }
     
     body {
@@ -123,6 +139,7 @@ p, li, ul{
     
     h1 {
         text-align: center;
+      
     }
     
     nav li {
