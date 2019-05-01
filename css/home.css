@@ -84,7 +84,8 @@ p, li, ul{
 @media only screen and (min-width: 320px) and (max-width: 599px) {
     html {
         background-color: #0D4D4D;
-        position: absolute;
+        position: relative;
+        width: 100%;
     }
     
     body {
@@ -102,20 +103,20 @@ p, li, ul{
         float: none;
     }
     
-    h1 {
+    h1, h2 {
         text-align: center;
     }
-    
     p, li, ul {
         font-size: 0.9em;
+        text-align: center;
     } 
     
     #photo-me {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        float: none;
         overflow: hidden;
+        float: none;
     }
     
     div {
